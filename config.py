@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NOBITA_NETW0RK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOBITA_BOTS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RAGNOR_NETWORK")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/felling8")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -48,7 +48,7 @@ AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", 'NxGBNexGenBotse2fcb7') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots1ecb2c') # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -82,21 +82,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
+    "START_IMG_URL", "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
+    "PING_IMG_URL", "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-STATS_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/e5950cc2c06d04164e339-02cde883bd850b78ab.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
+STATS_IMG_URL = "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/324a849a3edb79e242d04-de222f0e603d4e270d.jpg"
+STREAM_IMG_URL = "https://graph.org/file/324a849a3edb79e242d04-de222f0e603d4e270d.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/324a849a3edb79e242d04-de222f0e603d4e270d.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/324a849a3edb79e242d04-de222f0e603d4e270d.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/324a849a3edb79e242d04-de222f0e603d4e270d.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/239e5df68dfa6b8afcc6e-cece3a1726bfdbbb4b.jpg"
 
 
 def time_to_seconds(time):
